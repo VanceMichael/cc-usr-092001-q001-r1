@@ -1,0 +1,8 @@
+{
+  "schema_version": "1",
+  "event_id": "EVENT-001-DEMO",
+  "subject_ref": "SUBJECT-001-DEMO",
+  "occurred_at": "2026-09-19T09:30:00+08:00",
+  "source_sequence": 1,
+  "payload_digest": "sha256:demo"
+}
