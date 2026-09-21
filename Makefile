@@ -1,6 +1,6 @@
 .PHONY: test migrate run
 test:
-	python -m unittest discover -s tests
+	python -m pytest tests -q
 migrate:
 	python -m scripts.migrate
 run:

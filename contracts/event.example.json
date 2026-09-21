@@ -1,8 +1,21 @@
 {
   "schema_version": "1",
-  "event_id": "EVENT-001-DEMO",
-  "subject_ref": "SUBJECT-001-DEMO",
-  "occurred_at": "2026-09-19T09:30:00+08:00",
+  "event_id": "EVT-20260920-0001",
+  "event_type": "ISSUE",
+  "subject_ref": "ALERT-2026-0920-001",
+  "source_ref": "PROV-MET-01",
+  "occurred_at": "2026-09-20T22:30:00+08:00",
   "source_sequence": 1,
-  "payload_digest": "sha256:demo"
+  "payload_digest": "sha256:ec20fb0d9b5fe9123114a36364855a57cdb4f2b3ba26aa8dceeb7d6e3155af39",
+  "payload": {
+    "alert_level": "暴雨红色预警",
+    "rain_range": "50-80毫米",
+    "hourly_intensity": "20-40毫米/小时",
+    "regions": [
+      "360101",
+      "360102"
+    ],
+    "valid_from": "2026-09-20T23:00:00+08:00",
+    "valid_until": "2026-09-21T06:00:00+08:00"
+  }
 }
