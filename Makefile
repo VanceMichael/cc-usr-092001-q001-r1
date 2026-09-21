@@ -1,6 +1,6 @@
 .PHONY: test migrate run
 test:
-	python -m unittest discover -s tests
+	python -m unittest discover -t . -s tests
 migrate:
 	python -m scripts.migrate
 run:

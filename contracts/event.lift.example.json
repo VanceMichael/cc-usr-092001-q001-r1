@@ -1,0 +1,14 @@
+{
+  "event_id": "EVT-LIFT-20260920-003",
+  "source_id": "ZJ-MET-HQ",
+  "subject_ref": "SUBJ-2026-RAIN-0919",
+  "event_type": "lift",
+  "occurred_at": "2026-09-20T02:00:00+08:00",
+  "source_sequence": 3,
+  "payload_digest": "sha256:由发送方对 payload 规范化后计算",
+  "payload": {
+    "areas": [],
+    "effective_at": "2026-09-20T02:00:00+08:00",
+    "reason": "强降雨过程结束"
+  }
+}

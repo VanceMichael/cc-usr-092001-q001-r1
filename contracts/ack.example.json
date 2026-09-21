@@ -1,0 +1,7 @@
+{
+  "ack_id": "ACK-SMS-20260920-0007",
+  "delivery_id": "DLV-由送达详情接口返回",
+  "recipient_id": "R-330100-SMS-DUTY",
+  "occurred_at": "2026-09-19T22:05:00+08:00",
+  "payload_digest": "sha256:可选，回执体摘要"
+}

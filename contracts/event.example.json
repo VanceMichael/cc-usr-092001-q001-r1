@@ -1,8 +1,21 @@
 {
-  "schema_version": "1",
-  "event_id": "EVENT-001-DEMO",
-  "subject_ref": "SUBJECT-001-DEMO",
-  "occurred_at": "2026-09-19T09:30:00+08:00",
+  "event_id": "EVT-ISSUE-20260919-001",
+  "source_id": "ZJ-MET-HQ",
+  "subject_ref": "SUBJ-2026-RAIN-0919",
+  "event_type": "issue",
+  "occurred_at": "2026-09-19T22:00:00+08:00",
   "source_sequence": 1,
-  "payload_digest": "sha256:demo"
+  "payload_digest": "sha256:由发送方对 payload 规范化后计算",
+  "payload": {
+    "warning_level": "橙色",
+    "rainfall_mm": [50.0, 100.0],
+    "hourly_intensity_mm": 40.0,
+    "areas": [
+      {"code": "330100", "name": "杭州市"},
+      {"code": "330200", "name": "宁波市"}
+    ],
+    "valid_from": "2026-09-19T22:00:00+08:00",
+    "valid_for": "PT8H",
+    "max_attempts": 5
+  }
 }
